@@ -29,14 +29,13 @@ Personal Practice Projects for 2025-2026 AI Basics Course (Big Data Major)
    ```Bashcd
    "D:\BigdataLearning\2025-2026-2学期\人工智能应用基础\code"
    python "成绩分析.py"
-3. ## 运行效果截图
+## 运行效果截图
 
 ### 柱状图（学生成绩分布）
-<image-card alt="学生成绩柱状图" src="code/bar_chart.png" ></image-card>
+![学生成绩柱状图](bar_chart.png)
 
 ### 饼图（成绩占比）
-<image-card alt="学生成绩饼图" src="code/pie_chart.png" ></image-card>
+![学生成绩饼图](pie_chart.png)
 
 ### 终端输出示例（表格 + 平均分 + 最高分）
-<image-card alt="终端输出" src="code/terminal_output.png" ></image-card>
-
+![终端输出](terminal_output.png)

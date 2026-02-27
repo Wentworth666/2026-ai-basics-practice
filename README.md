@@ -21,3 +21,5 @@ Personal Practice Projects for 2025-2026 AI Basics Course (Big Data Major)
 1. 激活环境：
    ```bash
    conda activate bigdata
+2. 进入文件夹并运行：Bashcd "D:\BigdataLearning\2025-2026-2学期\人工智能应用基础\code"
+python "成绩分析.py"

@@ -1,6 +1,6 @@
 # 2026-ai-basics-practice
 
-2025-2026 大二下人工智能应用基础课程个人练习项目  
+2025-2026 大一下人工智能应用基础课程个人练习项目  
 Personal Practice Projects for 2025-2026 AI Basics Course (Big Data Major)
 
 ## 项目简介 / Project Description

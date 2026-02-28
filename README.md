@@ -40,9 +40,10 @@ Personal Practice Projects for 2025-2026 AI Basics Course (Big Data Major)
 ### 终端输出示例（表格 + 平均分 + 最高分）
 ![终端输出](terminal_output.png)
 ## 项目亮点 / Highlights
-- 完整实现了数据读取、统计分析、可视化全流程
+- 完整实现了数据读取、统计分析、可视化全流程，支持 CSV 文件读取（真实数据分析）
 - 支持中文显示（解决 matplotlib 中文乱码）
 - 代码注释清晰，适合初学者学习 pandas + matplotlib
+- 计算多种统计指标（平均、最高、最低、中位数、标准差）
 
 ## 未来计划 / Next Steps
 - 支持读取 CSV 文件（真实成绩表）

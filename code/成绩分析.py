@@ -62,4 +62,4 @@ else:
     plt.pie(df["成绩"], labels=df["姓名"], autopct='%1.1f%%',
             colors=['#4e79a7', '#f28e2b', '#76b7b2'])
     plt.title("学生成绩占比饼图")
-    plt.show()
+    plt.show()    # 测试提交：Excel 导出功能已正常

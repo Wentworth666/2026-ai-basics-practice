@@ -18,7 +18,20 @@
 **注意**：  
 - 项目已附带 `students.csv` 示例数据文件，可直接运行测试。  
 - 支持任意数量的学生数据（CSV 行数不限，图表自动适应）。  
-- 运行后会自动生成 `analysis_results.xlsx` 文件（统计结果表格）。  
+- 运行后会自动生成 `analysis_results.xlsx` 文件（统计结果表格）。
+- **项目结构说明**：
+- `code/` 文件夹：主代码文件（成绩分析.py）
+- `students.csv`：示例数据（5名学生）
+- `analysis_results.xlsx`：运行后自动生成的统计报告
+- `notes/` 和 `report/`：个人学习笔记和报告（仅供参考）
+
+**台式机/WSL 运行说明**：
+项目已完美同步到台式机 WSL Ubuntu 环境（虚拟环境 venv 已创建）。
+运行命令：
+```bash
+cd /mnt/d/BigdataLearning/2025-2026-2学期/人工智能应用基础/code
+source venv/bin/activate
+python3 "成绩分析.py" 
 
 1. 激活环境：
    ```bash

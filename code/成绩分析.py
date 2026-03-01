@@ -46,6 +46,8 @@ else:
     results_df.to_excel(excel_file, index=False)
     print(f"\n统计结果已导出为：{excel_file}")
 
+        # ==================== 保存图表为文件（适合 WSL 和 GitHub） ====================
+
     # 柱状图
     plt.figure(figsize=(8, 5))
     plt.bar(df["姓名"], df["成绩"], color=['#4e79a7', '#f28e2b', '#76b7b2'])
@@ -55,11 +57,13 @@ else:
     plt.ylim(0, 100)
     for i, v in enumerate(df["成绩"]):
         plt.text(i, v + 1, str(v), ha='center')
-    plt.show()
+    plt.savefig('bar_chart.png')   # 保存为文件
+    print("柱状图已保存为 bar_chart.png")
 
     # 饼图
     plt.figure(figsize=(7, 7))
     plt.pie(df["成绩"], labels=df["姓名"], autopct='%1.1f%%',
             colors=['#4e79a7', '#f28e2b', '#76b7b2'])
     plt.title("学生成绩占比饼图")
-    plt.show()    # 测试提交：Excel 导出功能已正常
+    plt.savefig('pie_chart.png')   # 保存为文件
+    print("饼图已保存为 pie_chart.png")

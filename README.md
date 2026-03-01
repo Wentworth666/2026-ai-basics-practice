@@ -15,6 +15,10 @@
 - 依赖库：pandas, matplotlib
 
 ## 运行方法
+**注意**：  
+- 项目已附带 `students.csv` 示例数据文件，可直接运行测试。  
+- 支持任意数量的学生数据（CSV 行数不限，图表自动适应）。  
+- 运行后会自动生成 `analysis_results.xlsx` 文件（统计结果表格）。  
 
 1. 激活环境：
    ```bash

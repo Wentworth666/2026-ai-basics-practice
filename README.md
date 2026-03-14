@@ -1,3 +1,4 @@
+**Part of main portfolio:** [wentworth-ai-projects](https://github.com/Wentworth666/wentworth-ai-projects)
 # 2026-ai-basics-practice
 
 **大一下人工智能应用基础课程个人实践项目**  
